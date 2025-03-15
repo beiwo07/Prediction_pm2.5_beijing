@@ -63,15 +63,15 @@ Distribution of PM2.5 by year from 2013-2017. The increase in mean of 2017 was d
 
 Within a year, PM2.5 level is averagely higher among the winter months (November- March) compared to the rest of the year.
 
-<img src="plots/by_month.png" width="300">
+<img src="plots/by_month.png" width="600">
 
 Within a month, there are lower average levels of PM 2.5 clustered around the 9th to the 13th days of the month.
 
-<img src="plots/by_day.png" width="300">
+<img src="plots/by_day.png" width="600">
 
 Within a day, PM2.5 tends to peak from evening to midnight. (8pm to 3am the next day)
 
-<img src="plots/by_hour.png" width="300">
+<img src="plots/by_hour.png" width="600">
 
 These univariate relationship between time and PM2.5 have important implications for me in terms of how to include these features in my analysis. 
 - Month, day, hour: The lack of linearity of these features and PM2.5 suggests that it is better to one-hot code them instead of treat them as a numeric value. But one-hot coding all these time features would lead to a large number of features that are not that informative for interpretation and not useful for making prediction. So, I converted these features into categories such as winter, spring, summer, winter, morning, evening, etc.
@@ -81,11 +81,11 @@ These univariate relationship between time and PM2.5 have important implications
 
 The decision tree regressor model produced the best and most concise model. The model achieved an R^2 of 0.85 with 9 features. Many of the air pollution measures other than PM2.5 are predictive of PM2.5, which could be useful to make prediction when these information are available. Spring season, year, and wind speed were also positively associated with increase level of PM2.5.
 
-<img src="plots/best_mod.png" width="300">
+<img src="plots/best_mod.png" width="500">
 
 Residual plots help identify where a model's predictions deviate from actual values. In a well-performing model, residuals should be randomly scattered around the y=0 line, indicating no systematic bias and homoscedasticity. Plotting residuals against each feature provides valuable insights. In this case, residuals are not randomly distributed against PM2.5, suggesting that important predictors may be missing from the model. Additionally, larger residuals tend to occur when precipitation and wind speed are low, indicating potential relationships that the model has not fully captured.
 
-<img src="plots/res.png" width="300">
+<img src="plots/res.png" width="800">
 
 
 
