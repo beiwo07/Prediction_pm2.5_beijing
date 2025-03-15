@@ -87,6 +87,19 @@ Residual plots help identify where a model's predictions deviate from actual val
 
 <img src="plots/res.png" width="800">
 
+## View the full report
+
+- [View the full script (Data Preprocessing & Analysis)](script/full_script_ipynb)
+
+## Project organization
+
+```
+.
+├── data/                              : contains downloaded data
+├── plots/                             : contains images 
+├── presentation/                      : contains a recorded presentation based on the project 
+├── script/                            : contains a full script 
+
 
 
 
