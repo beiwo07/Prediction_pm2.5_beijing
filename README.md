@@ -89,7 +89,7 @@ Residual plots help identify where a model's predictions deviate from actual val
 
 ## View the full report
 
-- [View the full script (Data Preprocessing & Analysis)](script/full_script_ipynb)
+- [View the full script (Data Preprocessing & Analysis)](script/full_script.ipynb)
 
 ## Project organization
 
