@@ -100,12 +100,6 @@ Residual plots help identify where a model's predictions deviate from actual val
 ├── presentation/                      : contains a recorded presentation based on the project 
 ├── script/                            : contains a full script 
 
-
-
-
-
-
-
-
+```
 
 
