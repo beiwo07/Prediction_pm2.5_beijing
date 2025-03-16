@@ -4,7 +4,7 @@
 
 # Background and importance 
 
-PM2.5 is a widespread and inhalable air pollutant with serious health implications, making accurate data on its concentration essential for informing policies aimed at reducing pollution. In developed countries, most urban areas have multiple PM2.5 monitors, with an estimated one monitor per 100,000 to 600,000 residents in Europe and North America (World Health Organization, 2018). However, in less developed regions, air quality monitoring is severely lacking; for instance, sub-Saharan Africa has only one monitor per 15.9 million residents (WHO Global Ambient Air Quality Database, 2016). Given these disparities, my goal focuses on developing a model that leverages available PM2.5 data to predict pollution levels in areas with little to no monitoring.
+PM2.5 is a pervasive and inhalable air pollutant with significant health risks, making accurate concentration data crucial for informing pollution reduction policies. In developed countries, urban areas are well-monitored, with approximately one PM2.5 monitor per 100,000 to 600,000 residents in Europe and North America (World Health Organization, 2018). In contrast, air quality monitoring remains severely limited in less developed regions, such as sub-Saharan Africa, where there is only one monitor per 15.9 million residents (WHO Global Ambient Air Quality Database, 2016). To address this disparity, my goal is to develop a predictive model that utilizes available PM2.5 data to estimate pollution levels in areas with limited or no monitoring infrastructure.
 
 # Task
 
